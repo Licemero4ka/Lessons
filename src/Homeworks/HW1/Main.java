@@ -3,7 +3,7 @@ public class Main {
     public static void main(String[] args) {
 
         System.out.print("Hello and welcome to hell!");
-        System.out.print("Hello from feature branch");
+        System.out.print("Hello from feature branch))");
 
 
 
