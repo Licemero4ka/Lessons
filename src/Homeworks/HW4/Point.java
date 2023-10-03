@@ -13,6 +13,13 @@ public class Point {
         System.out.println("Point: (" + x + ", " + y + ")");
     }
 
+    public int getX() {
+        return x;
+    }
+
+    public int getY() {
+        return y;
+    }
     public static void main(String[] args) {
 
         Point[] points = new Point[4];
@@ -25,7 +32,11 @@ public class Point {
         for (Point point : points) {
             point.info();
         }
-
+        System.out.println("Points with x and y coordinates that are multiples of 2:");
+        for (Point point : points) {
+        if(point.getX()% 2 == 0 && point.getY()% 2 ==0)
+            point.info();
+        }
 
         }
     }
