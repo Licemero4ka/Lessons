@@ -1,6 +1,6 @@
 package Homeworks.HW4;
 public class MyInt {
-   int x;
+   private int x;
     public MyInt(int x) {
         this.x = x;
     }
