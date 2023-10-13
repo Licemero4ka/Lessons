@@ -16,7 +16,7 @@ public class Main {
 
             switch (choice) {
                 case 1:
-                    // Circle selected
+
                     Circle circle = new Circle(0);
 
                     System.out.println("Choose what to calculate:");
