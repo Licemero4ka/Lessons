@@ -3,7 +3,6 @@ package Homeworks.HW6_2;
 public class Triangle extends Figure{
     private int sideA;
     private int sideB;
-
     private int sideC;
     private double angle;
     private int hieght;

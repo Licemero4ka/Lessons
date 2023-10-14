@@ -60,9 +60,13 @@ public class Main {
                         int sideA = scanner.nextInt();
                         int sideB = scanner.nextInt();
                         int sideC = scanner.nextInt();
-                        triangle = new Triangle(sideA, sideB, sideC);
-                        double perimeter = triangle.calculatePerimeter();
-                        System.out.println("Triangle perimeter: " + perimeter);
+                        if (sideA + sideB > sideC && sideA + sideC > sideB && sideB + sideC > sideA) {
+                            triangle = new Triangle(sideA, sideB, sideC);
+                            double perimeter = triangle.calculatePerimeter();
+                            System.out.println("Triangle perimeter: " + perimeter);
+                        } else {
+                            System.out.println("Such a triangle cannot exist, enter the correct sides");
+                        }
 
                     } else if (triangleChoice == 2) {
 
@@ -70,10 +74,13 @@ public class Main {
                         int sideA = scanner.nextInt();
                         int sideB = scanner.nextInt();
                         int sideC = scanner.nextInt();
+                        if (sideA + sideB > sideC && sideA + sideC > sideB && sideB + sideC > sideA) {
                         triangle = new Triangle(sideA, sideB, sideC);
                         double area = triangle.calculateArea(sideA, sideB, sideC);
                         System.out.println("Triangle area: " + area);
-
+                        } else {
+                            System.out.println("Such a triangle cannot exist, enter the correct sides");
+                        }
                     } else if (triangleChoice == 3) {
 
                         System.out.println("Enter triangle base (a):");
