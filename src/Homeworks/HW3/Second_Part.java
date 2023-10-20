@@ -1,4 +1,4 @@
-package Homeworks.HW2;
+package Homeworks.HW3;
 
 public class Second_Part {
     public static void main(String[] args) {

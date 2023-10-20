@@ -1,6 +1,4 @@
-package Homeworks.HW1;
-
-import java.sql.SQLOutput;
+package Homeworks.HW2;
 
 public class Feature {
     public static void main(String[] args) {
